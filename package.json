@@ -1,0 +1,30 @@
+{
+  "name": "certik-take-home-front-end",
+  "version": "1.0.0",
+  "description": "Front end developer take-home exam for Certik job application",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-cli",
+    "stop": "pkill --signal SIGINT certik-take-home-front-end",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxwell Foley",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
+    "@babel/plugin-transform-regenerator": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.4.5",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react": "^6.24.1",
+    "csg": "^1.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "three": "^0.105.2",
+    "three-2-csg": "^1.0.2",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2"
+  }
+}

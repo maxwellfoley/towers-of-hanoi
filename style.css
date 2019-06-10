@@ -1,0 +1,124 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  color: white;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#hanoi {
+  text-align: center;
+  padding-top: 5px;
+}
+
+#hanoi h2 {
+  text-align:left;
+  padding-left:30px;
+  margin-top: -5px;
+  background-color:black;
+  padding:10px;
+}
+
+#hanoi-canvas-container {
+  position: absolute;
+  width: 100%;
+  top: 80px;
+  text-align: center;
+}
+
+#hanoi-canvas {
+  border-radius: 5px;
+ }
+
+#hanoi-options-container {
+  padding:10px;
+  z-index:2;
+  text-align:left;
+  color: #555;
+}
+
+#difficulty {
+  display:inline-block;
+  width:75%;
+}
+
+#restart {
+  display:inline-block;
+  width:25%;
+  text-align: right;
+}
+
+#sizer-container {
+  width:100%;
+  top:80px; 
+  position:absolute;
+  text-align:center;
+}
+
+#sizer-inner {
+  display:inline-block;
+  position: relative;
+}
+
+#overlay-outer {
+  background-color:#000a; 
+  position: absolute;
+  width: 100%;
+  height: calc(width * .625);
+  z-index:3;
+  border-radius: 5px;
+}
+
+#overlay-inner {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px black;
+
+}
+
+#overlay-inner .left {
+  text-align: left;
+}
+
+.btn {
+  margin-left:3px;
+  margin-right:3px;
+  margin-top:5px;
+  margin-bottom:5px;
+  padding-top:4px;
+  padding-bottom:4px;
+  padding-left:15px;
+  padding-right:15px;
+  border:1px solid #e5453d;
+  border-radius:3px;
+  color: #e5453d;
+}
+
+.btn:hover {
+  background-color:#e5453d;
+  color:white;
+  cursor: pointer;
+}
+
+.link {
+  padding-left:12px;
+}
+
+.link.inactive {
+  color:#aaa;
+}
+
+.link.active {
+  cursor:pointer;
+  color:#e5453d;
+}
+
+.link.active:hover {
+  color:#fff;
+}
